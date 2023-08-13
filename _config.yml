@@ -1,0 +1,22 @@
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+domain: renejahn.github.io/
+url: https://renejahn.github.io/
+baseUrl: /
+
+exclude:
+  - _posts
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
