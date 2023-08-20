@@ -23,7 +23,11 @@ exclude:
   - node_modules
   - vendor
 
+postcss:
+  cache: false
+
 plugins:
   - jekyll-feed
+  - jekyll-postcss
   - jekyll-sitemap
   - jekyll-seo-tag

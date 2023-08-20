@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <!-- {% include navigation.html %} -->
+    <div class="container mx-auto px-4">{{ content }}</div>
   </body>
 </html>
