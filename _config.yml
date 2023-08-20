@@ -15,8 +15,13 @@ baseUrl: /
 
 exclude:
   - _posts
+  - node_modules
+
+postcss:
+  cache: false
 
 plugins:
   - jekyll-feed
+  - jekyll-postcss
   - jekyll-sitemap
   - jekyll-seo-tag
