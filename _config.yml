@@ -9,12 +9,19 @@ defaults:
     values:
       layout: "default"
 
+title: jahndev
+repository: renejahn/renejahn.github.io
 domain: renejahn.github.io/
 url: https://renejahn.github.io/
 baseUrl: /
 
 exclude:
   - _posts
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
 
 plugins:
   - jekyll-feed
